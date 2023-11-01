@@ -2,7 +2,7 @@
 
 At present, it is not possible to schedule a [reconfigure](https://docs.morpheusdata.com/en/latest/provisioning/instances/instances.html#performing-instance-actions:~:text=it%20is%20unlocked.-,Reconfigure,-The%20Reconfigure%20action) task to run on an instance/server in [Morpheus](https://morpheusdata.com/). 
 
-To get around this, I have created a script that can run in a Morpheus task. On top of this, you can leverage Morpheus' existing [job capability](https://docs.morpheusdata.com/en/latest/provisioning/jobs/jobs.html) to schedule the running of the task along with an [Approval Reconfigure policy](https://docs.morpheusdata.com/en/latest/administration/policies/policies.html#:~:text=such%20a%20ServiceNow.-,Approve%20Reconfigure,-Sets%20an%20approval). The outcome of this is the acceptance of all Reconfigure tasks pending approval. 
+To get around this, I have created a script that can run in a Morpheus task. On top of this, you can leverage Morpheus' existing [job capability](https://docs.morpheusdata.com/en/latest/provisioning/jobs/jobs.html) to schedule the running of the task along with an [Approval Reconfigure policy](https://docs.morpheusdata.com/en/latest/administration/policies/policies.html#:~:text=such%20a%20ServiceNow.-,Approve%20Reconfigure,-Sets%20an%20approval). The outcome of this is the acceptance of all Reconfigure tasks pending approval at the time scheduled in the job. 
 
 ## **Note: this is a workaround and not a solution to the problem.**
 
